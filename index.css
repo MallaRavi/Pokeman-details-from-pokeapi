@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(72, 63, 105);
+}
+.list-container{
+    background-image: url('pokemanbackground.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+#pokeman-details{
+    background-color: rgb(61, 56, 56);
+    color: white;
+    width: 450px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    list-style-type: none;
+    padding:20px 0px ;
+    margin: 10px;
+
+}
+#pokeman-details li{
+    text-transform: uppercase;
+
+}
+#pokeman-id{
+    width: 200px;
+}
